@@ -1,0 +1,78 @@
+.guidelines-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.guidelines-container h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.disaster-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.disaster-button {
+  padding: 40px 40px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top:5rem;
+  margin-bottom: 3rem;
+}
+
+.disaster-button:hover {
+  background-color: #0056b3;
+}
+
+.guidelines-content {
+  text-align: left;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.guidelines-content h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.guidelines-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+.guidelines-list li {
+  margin-bottom: 5px;
+}
+
+.disaster-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.disaster-info h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.disaster-info p {
+  color: #666;
+  line-height: 1.6;
+}
